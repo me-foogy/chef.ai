@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+body{
+  background-image: url("./assets/main-Background.jpg");
+  background-repeat: none;
+  background-size: cover;
+}
+
+.mainElement{
+  background-color: aliceblue;
+  width: 30vw;
+  height: 80vh;
+  margin: auto;
+  align-content: center;
+}
