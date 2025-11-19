@@ -1,10 +1,11 @@
 export default function Recipie(){
     return(
         <section className="text-[12px] max-h-[370px] overflow-y-scroll p-3 text-justify">
-        <h2>Chef Claude Recommends:</h2>
+        <h2>Chef Claude Recommends:</h2><br/>
         <article className="suggested-recipe-container" aria-live="polite">
         <p>Based on the ingredients you have available, I would recommend making a simple a delicious <strong>Beef Bolognese Pasta</strong>. Here is the recipe:</p>
         <h3>Beef Bolognese Pasta</h3>
+        <br/>
         <strong>Ingredients:</strong>
         <ul>
         <li>1 lb. ground beef</li>
@@ -18,6 +19,7 @@ export default function Recipie(){
         <li>Salt and pepper to taste</li>
         <li>8 oz pasta of your choice (e.g., spaghetti, penne, or linguine)</li>
         </ul>
+        <br/>
         <strong>Instructions:</strong>
         <ol>
         <li>Bring a large pot of salted water to a boil for the pasta.</li>

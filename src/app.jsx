@@ -2,6 +2,7 @@ import Header from "./Header/header.jsx"
 import MainSection from "./main/mainSection.jsx"
 import Recipie from "./main/recipieSection.jsx"
 import {useState} from 'react';
+// import getRecipeFromMistral from './aiCall.js'
 
 
 export default function App(){
